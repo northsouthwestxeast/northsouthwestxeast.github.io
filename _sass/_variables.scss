@@ -5,7 +5,7 @@
 
 @use "sass:color";
 
-// Colors
+// Colors (original)
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
@@ -32,10 +32,18 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Colors (new)
+$new-blue-color-dark: #002c54 !default;
+$new-blue-color-light: #7fafc7 !default;
+$new-brown-color: #593108 !default;
+$new-yellow-color: #efb509 !default;
+$new-white-color-off: #edeade !default;
+$new-black-color-off: #0c171d !default;
+
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+$code-bg-color-light: $new-white-color-off;
+$code-bg-color-dark: $new-black-color-off;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
